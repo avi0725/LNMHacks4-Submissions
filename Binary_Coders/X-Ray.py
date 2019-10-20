@@ -68,7 +68,9 @@ test_set = test_datagen.flow_from_directory(
 
 classifier.fit_generator(training_set, steps_per_epoch=5216/32, epochs=10, validation_data = validation_set, validation_steps=624/32)
 
-    
+#classifier.save('medical_trail_model.h5')
+#new_model=Model('medical_trail_model.h5')
+
 test_loss,test_accuracy=classifier.evaluate_generator(test_set,steps=624)
 print('The testing loss is :',test_loss*100, '%')
 print('The testing accuracy is :',test_accuracy*100, '%')
