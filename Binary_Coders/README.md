@@ -3,11 +3,11 @@ Domain             : Machine Learning
 Sub-Domain         : Deep Learning, Image Recognition
 Techniques         : Deep Convolutional Neural Network
 Application        : Image Recognition, Image Classification, Medical Imaging
-
+Pre-requisites     : Pyhton 3.0 and above,Spyder IDE,Keras
 
 Description
 1. Detected Pneumonia from Chest X-Ray images using Custom Deep Convololutional Neural Network with 5216 images of X-ray .
-2. This is going to be a simplest CNN using few conv layers and pooling layers to classify X-ray as 1)Normal 2)Pneumonia.
+2. This is going to be a CNN using few conv layers and pooling layers to classify X-ray as 1)Normal 2)Pneumonia.
    The reason for keeping it simple is to explore parameter tunning and regularization as well.
    We will develop model using Keras. 
    We shall start with loading data normally, the preprocessing (if required) and then finding paramters using smaller datasets.
